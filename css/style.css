@@ -1,7 +1,23 @@
-.color_fondo{
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+.color_fondo {
+    background-color: #001522;
+    background-image: linear-gradient(180deg, #001522 0%, #ffffff 100%);
 }
-.avatar_redondo{
+
+.avatar_redondo {
     border-radius: 50%;
+}
+
+.margen_caratula {
+    margin-top: 150px;
+}
+
+.fondo_navbar {
+    background-color: #001522;
+}
+
+.margen_pornav{
+    margin-top: 56px;
+}
+.color_texto{
+ color: #0a4164;
 }
