@@ -22,3 +22,16 @@
 .color_texto {
     color: #0a4164;
 }
+
+.altura_tarjetas {
+    height: 116px;
+}
+
+.posicion_status {
+    position: absolute;
+    bottom: -12px;
+}
+
+.fondo_card {
+    background-color: #1e213d;
+}
