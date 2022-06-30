@@ -60,6 +60,9 @@
                 >
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#my_works">My Works</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#experiencia_laboral">Experience</a>
               </li>
               <li class="nav-item">
@@ -100,15 +103,12 @@
         <hr />
         <h3 class="color_texto">About me</h3>
         <p class="lead">
-          I am a very sociable person, I enjoy team-working and I adapt easily
-          to different situations and work environments. I like work to be
-          pleasant, and in my seven years of experience on team-working I have
-          realized that one of the most important factors for it to be rewarding
-          is getting along with your coworkers, that is why I always respect
-          people and make an effort for being a good colleague and generating
-          bonds of trust and mutual support. I work with responsibility and
-          commitment. I enjoy solving problems, and I believe that every
-          situation you overcame teaches you something.
+          I'm a self-taught software developer obsessed with learning and
+          applying knowledge and creativity to projects. I am very sociable, I
+          enjoy teamwork and I adapt easily. Passionate about science and
+          technology, and curious about how things work. I really enjoy
+          learning new things, I am a fast and self-learner. I like to help
+          others and I am good at explaining and transmitting ideas.
         </p>
         <hr />
         <h3 class="color_texto">Languages:</h3>
@@ -133,6 +133,105 @@
           </div>
         </div>
       </article>
+
+      <h2 class="color_texto display-4 text-center my-4" id="my_works">
+        My works
+      </h2>
+      <article>
+        <div class="shadow mb-5 bg-body rounded card mb-3">
+          <div class="row g-0">
+            <div
+              class="img-card flex-column align-items-center justify-content-around col-md-8 posicion-relativa"
+            >
+              <img class="w-100 m-1" src="./img/Login.png" alt="Login" />
+              <img
+                class="w-100 m-1"
+                src="./img/TasksMain.png"
+                alt="task mern"
+              />
+              <a
+                target="_blank"
+                href="https://62bd006a15027d1a53c283a7--frabjous-clafoutis-630047.netlify.app/proyectos"
+                class="stretched-link"
+              ></a>
+            </div>
+            <div class="col-md-4">
+              <div class="card-body">
+                <a
+                  target="_blank"
+                  class="titulo-link"
+                  href="https://62bd006a15027d1a53c283a7--frabjous-clafoutis-630047.netlify.app/proyectos"
+                >
+                  <h5 class="color_texto card-title">
+                    Personal Project: tasks administration panel.
+                  </h5>
+                </a>
+                <div class="d-flex">
+                  <div>
+                    <p><i class="fab fa-github-square fa-3x"></i></p>
+                  </div>
+                  <div class="mx-3">
+                    <div class="list-group">
+                      <a
+                        target="_blank"
+                        class="project-links"
+                        href="https://github.com/juliosalas89/tasks-admin"
+                        >Frontend repository</a
+                      >
+                    </div>
+                    <div>
+                      <a
+                        target="_blank"
+                        class="project-links"
+                        href="https://github.com/juliosalas89/tasks-backend"
+                        >Backend repository</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  This is a small project I made myself. Here some information
+                  about it:
+                </p>
+                <ul>
+                  <li>
+                    <p>
+                      Frontend: It is made with ReactJS v18.1.0. Implementing
+                      useContext and useReducer for the administration of
+                      states.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Backend: It is made using NodeJS with express framework.
+                    </p>
+                  </li>
+                  <li>
+                    <p>For the data base I used mongoDB with mongoose ODM.</p>
+                  </li>
+                </ul>
+                <p>
+                  Description: First you will see a LogIn form, with the option
+                  to go to a SignUp form if you dont have an account. All the
+                  users are storaged at the DB and in the API I have implemented
+                  JsonWebToken for the authentications. Once you LogIn, you will
+                  se the main page, were you can create and administrate tasks
+                  that are related to your account and only you have the
+                  permissions to modify them. If you LogOut and LogIn again you
+                  will see the projects and tasks as you left them.
+                </p>
+                <p>
+                  You can SignUp or LogIn using this credentials I already
+                  signedUp:
+                </p>
+                <p>email: user@email.com</p>
+                <p>password: 123123</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
       <h2
         class="color_texto display-4 text-center my-4"
         id="experiencia_laboral"
@@ -276,6 +375,22 @@
           <div class="col-sm-12 col-md-6">
             <div class="card mb-4">
               <div class="fondo_card text-center text-light">
+                <p class="lead">2022 - present</p>
+                <p class="lead">Udemi</p>
+              </div>
+              <div class="altura_tarjetas card-body">
+                <h4 class="card-title">ReactJS/NodeJS developer.</h4>
+                <p class="card-text">
+                  ReactJS, Context, Reducer, Redux, NodeJS, NextJS, Gastby,
+                  GraphQL
+                </p>
+                <p class="posicion_status"><strong>Status:</strong>In course</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card mb-4">
+              <div class="fondo_card text-center text-light">
                 <p class="lead">2021 - 2022</p>
                 <p class="lead">Rolling Code School</p>
               </div>
@@ -316,23 +431,12 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6">
-            <div class="card mb-4">
-              <div class="fondo_card text-center text-light">
-                <p class="lead">1994 - 2006</p>
-                <p class="lead">Colegio Pucará</p>
-              </div>
-              <div class="altura_tarjetas card-body">
-                <h4 class="card-title">Bachelor</h4>
-                <p class="card-text"></p>
-                <p class="posicion_status"><strong>Status:</strong> Complete</p>
-              </div>
-            </div>
-          </div>
         </div>
       </article>
       <article class="mb-5">
-        <h2 class="display-4 text-center mt-4 color_texto" id="abilities">Abilities</h2>
+        <h2 class="display-4 text-center mt-4 color_texto" id="abilities">
+          Abilities
+        </h2>
         <section class="row justify-content-center">
           <div class="col-sm-12 col-md-10 col-lg-7">
             <hr />

@@ -35,3 +35,25 @@
 .fondo_card {
     background-color: #1e213d;
 }
+
+.img-card{
+    object-fit: cover;
+}
+
+.project-links {
+    color: #0060B6;
+    text-decoration: none !important;
+}
+
+.project-links:hover {
+    color:#00A0C6; 
+    text-decoration: none !important; 
+    cursor:pointer;  
+}
+.posicion-relativa{
+    position: relative;
+}
+.titulo-link{
+    text-decoration:none; 
+    color:inherit;
+}
